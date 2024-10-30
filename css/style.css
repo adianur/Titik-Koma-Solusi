@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ireng {
+    background-color: #333; /* Warna latar sidebar */
+    color: #fff;
+    padding: 15px;
+    min-height: 100vh; /* Memastikan sidebar penuh */
+}
+.bg-biru-logo  {
+    background-color:#0A62A9;
+}
+.biru {
+    background-color: #f0f8ff; /* Warna latar konten */
+    padding: 15px;
+}
+
+.navbar .titikkomalogo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+}
+
+.navbar .nama-logo {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: #333;
+    line-height: 1.2;
+}
+
+.navbar .logo img {
+    width: 40px;
+}
+
+.navbar .nama-logo label {
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 12px;
+}
+.menu {
+    display: block;
+}
+.menu a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.menu ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.catatan textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    resize: vertical;
+    font-size: 14px;
+}
+
+.catatan input[type="button"] {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #0A62A9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.catatan input[type="button"]:hover {
+    background-color: #08497c;
+}

@@ -16,11 +16,22 @@ curl_close($ch);
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
 <link href="https://cdn01.rumahweb.com/under-construction/style.css" rel="stylesheet">
 </head>
 <body>
-	<h1>tes project</h1>
+<?php include 'nav.php'; ?> <!-- Menyisipkan navigasi -->
+    
+    <div class="container-fluid">
+        <div class="row">
+            <?php include 'sidebar.php'; ?> <!-- Menyisipkan sidebar -->
+            <div class="col-md-10 biru">
+                
+            </div>
+        </div>
+    </div>
 </body>
     <script type="text/javascript" src="https://chat.rumahweb.com/js/resource.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
